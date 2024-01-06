@@ -129,7 +129,18 @@ main {
   margin-bottom: 0;
 }
 
+/* what i do section styles */
+
 .info-description {
   margin-top: 5px;
   line-height: 15px;
+}
+#what-i-do-description {
+  padding: 30px 150px;
+}
+
+.skills-container {
+  padding: 20px 30px;
+  display: flex;
+  gap: 30px;
 }
