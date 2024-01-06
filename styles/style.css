@@ -125,4 +125,11 @@ main {
 }
 .about-info {
   text-align: center;
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+
+.info-description {
+  margin-top: 5px;
+  line-height: 15px;
 }
