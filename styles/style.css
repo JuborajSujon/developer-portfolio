@@ -28,6 +28,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .nav-title {
@@ -53,4 +55,22 @@ nav li {
 nav a {
   text-decoration: none;
   color: var(--primary-color);
+}
+
+/* Header related style */
+.header {
+  background-color: #fff8f3;
+}
+
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-content {
+  width: 50%;
+}
+.banner-img {
+  width: 40%;
 }
