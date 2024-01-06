@@ -60,17 +60,37 @@ nav a {
 /* Header related style */
 .header {
   background-color: #fff8f3;
+  background-image: url(../images/header_bg.png), url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, center left;
+  background-size: auto 50%, auto 80%;
 }
 
 .banner {
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: bottom;
+  max-height: 70vh;
 }
 .banner-content {
-  width: 50%;
+  width: 55%;
 }
 .banner-img {
-  width: 40%;
+  width: 45%;
+}
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.banner-description {
+  margin-bottom: 20px;
 }
