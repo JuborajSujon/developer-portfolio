@@ -220,3 +220,193 @@ footer .social-icons a {
   margin-top: 30px;
   display: inline-block;
 }
+
+.hide {
+  display: none;
+}
+
+/* Media queries */
+@media screen and (max-width: 1200px) {
+  footer {
+    padding: 90px 40px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* top banner section */
+  .banner {
+    padding: 20px 20px 0px 100px;
+  }
+  .banner-greeting {
+    font-size: 40px;
+  }
+  .banner-title {
+    font-size: 65px;
+  }
+
+  /* about section */
+  main section {
+    margin-top: 20px;
+  }
+  .about {
+    padding: 10px 20px;
+  }
+  .about-info-container {
+    flex-wrap: wrap;
+  }
+  .about-info {
+    width: 45%;
+  }
+  /* what i do section  */
+  #what-i-do-description {
+    padding: 0px 40px;
+  }
+  .skills-container {
+    flex-wrap: wrap;
+  }
+  .skill {
+    padding: 10px;
+    width: 45%;
+  }
+  /*Footer section */
+  footer {
+    padding: 70px 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* top banner section */
+  .header {
+    background: #fff8f3;
+  }
+  .banner {
+    padding: 10px 20px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    max-height: auto;
+  }
+  .banner-content {
+    width: 100%;
+  }
+  .banner img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+  }
+  .banner-greeting {
+    font-size: 30px;
+  }
+  .banner-title {
+    font-size: 50px;
+  }
+  /* about section */
+  main section {
+    margin-top: 20px;
+  }
+  .about {
+    padding: 10px 20px;
+  }
+  .about-info-container {
+    flex-wrap: wrap;
+  }
+  .about-info {
+    width: 45%;
+  }
+  /* what i do section  */
+  #what-i-do-description {
+    padding: 0px 40px;
+  }
+  .skills-container {
+    flex-wrap: wrap;
+  }
+  .skill {
+    padding: 10px;
+    width: 45%;
+  }
+  /* Resume section */
+  .resume-container {
+    flex-direction: column;
+  }
+  .resume-column-title {
+    margin: 0 0 30px;
+  }
+  /*Footer section */
+  footer {
+    flex-direction: column;
+    gap: 30px;
+    padding: 60px 20px;
+  }
+  .footer-column {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* top banner section */
+  .header {
+    background: #fff8f3;
+  }
+  .banner {
+    padding: 10px 20px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    max-height: auto;
+  }
+  .banner-content {
+    width: 100%;
+  }
+  .banner img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+  }
+  .banner-greeting {
+    font-size: 30px;
+  }
+  .banner-title {
+    font-size: 50px;
+  }
+  /* about section */
+  main section {
+    margin-top: 20px;
+  }
+  .about {
+    padding: 10px 20px;
+  }
+  .about-info-container {
+    flex-wrap: wrap;
+  }
+  .about-info {
+    width: 45%;
+  }
+  /* what i do section */
+  #what-i-do-description {
+    padding: 0px 40px;
+  }
+
+  .skills-container {
+    flex-direction: column;
+  }
+  .skill {
+    padding: 10px;
+    width: 100%;
+  }
+  /* Resume section */
+  .resume-container {
+    flex-direction: column;
+  }
+  .resume-column-title {
+    margin: 0 0 30px;
+  }
+  /*Footer section */
+  footer {
+    flex-direction: column;
+    gap: 30px;
+    padding: 60px 20px;
+  }
+  .footer-column {
+    width: 100%;
+  }
+}
